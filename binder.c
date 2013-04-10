@@ -2,7 +2,13 @@
 #include <linux/init.h>
 
 
+#define DEBUG
+
+#ifdef DEBUG
 #define debug(fmt,args...) printk(fmt,##args)
+#else
+#define debug(fmt,args...)
+#endif
 
 static int __init binder_init()
 {
