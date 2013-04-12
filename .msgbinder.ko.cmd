@@ -1,1 +1,0 @@
-cmd_/home/vonnyfly/kuaipan/Code/binder/msgbinder.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.5.0-23-generic/scripts/module-common.lds --build-id  -o /home/vonnyfly/kuaipan/Code/binder/msgbinder.ko /home/vonnyfly/kuaipan/Code/binder/msgbinder.o /home/vonnyfly/kuaipan/Code/binder/msgbinder.mod.o
